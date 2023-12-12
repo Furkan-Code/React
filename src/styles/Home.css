@@ -1,0 +1,294 @@
+.home {
+    margin-top: -10px;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  .home h1 {
+    justify-content: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size:220%;
+    color: aliceblue;
+  }
+  .font {
+    margin-top: 100px;;
+    margin-left: 215px;
+  }
+  .font1 {
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 0px;
+
+    
+  }
+  .font2 {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 250px;
+    
+  }
+  .font3 {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 50px;
+    
+  }
+  .font4 {
+    width: 170px;
+    margin-left: 125px;
+    position: absolute;
+    text-align: center;
+  }
+  .font5{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 150px;
+  }
+  .font6{
+    width: 170px;
+    margin-left: 405px;
+    position: absolute;
+    text-align: center;
+  }
+  .font7{
+    width: 170px;
+    margin-left: 710px;
+    position: absolute;
+    text-align: center;
+  }
+  .font8{
+    width: 170px;
+    margin-left: 1005px;
+    position: absolute;
+    text-align: center;
+  }
+  .font9{
+    width: 170px;
+    margin-left: 1290px;
+    position: absolute;
+    text-align: center;
+  }
+  .font10{
+    background-color: rgb(12, 6, 6);
+    width: 100%;
+    height: 285px;
+    position: absolute;
+  }
+  .clr
+  {
+    background-color:#F5C872;
+    width: 150px;
+    height: 75px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 41%;
+    display: flex; /* Flexbox kullanarak içeriği dikeyde hizala */
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    position: absolute;
+    font-weight: bold;
+
+  }
+  .clr1
+  {
+    background-color:#F5C872;
+    width: 150px;
+    height: 75px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 55%;
+    display: flex; /* Flexbox kullanarak içeriği dikeyde hizala */
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    position: absolute;
+    font-weight: bold;
+  }
+  .clr2
+  {
+    width: 250px;
+    position: absolute;
+    height: 75px;
+    margin-top: 150px;
+    margin-left:44%;
+    background-size: cover;
+     /* İçeriği dikeyde ortalamak için */
+  
+  }
+  .clr3
+  {
+    width: 1515px;
+    height: 0px;
+    margin-top: 230px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    color:aliceblue;
+
+  }
+  .clr4
+  {
+    width: 1515px;
+    height: 0px;
+    margin-top: 235px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    color:aliceblue;
+
+  }
+  .clr5
+  {
+    width: 300px;
+    height: 30px;
+    margin-top: 245px;
+    margin-left: 600px;
+    position: absolute;
+    text-decoration: underline;
+    color:aliceblue;
+
+  }
+  .clr6
+  {
+    width: 300px;
+    height: 30px;
+    margin-top: 245px;
+    margin-left: 850px;
+    position: absolute;
+    text-decoration: underline;
+    color:aliceblue;
+  }
+  
+  
+  
+  .resim1 {
+    width: 250px;
+    height: 195px;
+    margin-left: 80px;
+    background-size: cover;
+    border: 2px solid;
+    
+    
+  }
+  .resim2{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: -200px;
+    background-size: cover;
+  }
+  .resim3{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: -200px;
+    background-size: cover;
+  }
+  .resim4{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    margin-left: 960px;
+    margin-top: -200px;
+    background-size: cover;
+  }
+  .resim5{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: -200px;
+    background-size: cover;
+  }
+  
+  .headerContainer {
+    width: auto;
+    margin-left: 0px;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 60px;
+    font-weight: 50;
+    color: black;
+  }
+  
+  .headerContainer p {
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .headerContainer button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 50px;
+    width: 180px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .headerContainer button:hover {
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+    .headerContainer h1, .headerContainer p {
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+  }
